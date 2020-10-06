@@ -1,0 +1,253 @@
+
+@media screen and (max-width:426px){
+    #header{
+    height:80px;
+    margin:0 auto;
+    background-color:white;
+    padding:30px;
+   position:fixed;
+    top:0px;
+    width:auto;;
+    z-index:99;
+    width:100%;
+   }
+   .navbars{
+    display:none;
+}
+.toggle-nav{
+    display:block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background: blue;
+    margin-left: 30px;
+    color: white;
+    float:left;
+    margin-right:20px;
+}
+
+#dropdown{
+    display:none;
+}
+
+.toggle-menu ul{
+    padding:0;
+    list-style:none;
+    border-bottom:1px solid rgba(233, 105, 105, 0.2);
+}
+.toggle-menu ul li a{
+    padding:15px 10px;
+    display:block;
+    text-align:center;
+    font-size:16px;
+    color:black;
+    text-decoration:none;
+
+}
+.toggle-menu ul li a:hover{
+    background:rgba(0,0,0,0.1)
+}
+#header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0;
+}
+.carousel-item{
+    height:30vh;
+}
+
+.logo h3{
+    display: flex;
+    text-transform: uppercase;
+    font-size:23px;
+    margin-top:11px;
+    margin-left:20px;
+}
+.social{
+    margin-left:32px;
+}
+.social i{
+    margin-right:5px;
+    font-size:22px;
+    margin-left:3px;
+    color:#7b7777;
+    transition:all 0.2s linear;
+}
+.flip-card {
+    background-color: orange;
+    height: 400px;
+    perspective: 1000px;
+    margin-bottom: 10px;
+}
+.icon {
+    display: flex;
+    margin-top: 9px;
+    justify-content: center;
+    align-items: center;
+}
+#tribe {
+    margin-top: 7px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+.tribe {
+    margin-top: 14px;
+}
+.tribe h2 {
+    margin-top: 20px;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 22px;
+}
+.contain {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+.contain i {
+    color: blue;
+    font-size: 14px;
+}
+.contain h6 {
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#opportunities {
+    width: 100%;
+    background-color: blue;
+    margin-top: 27px;
+    height: 200px;
+    margin-bottom: 150px;
+}
+.deals h2 {
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    padding-top: 24px;
+    font-family: 'Francois One', sans-serif;
+}
+.deals p {
+    font-size: 15px;
+    color: #c8c0c0;
+    margin-bottom: 24px;
+}
+.designer h5 {
+    font-size: 17px;
+    color: black;
+}
+.designer h6 {
+    color: red;
+    font-size: 13px;
+    line-height: 7px;
+}
+.designer p {
+    font-size: 16px;
+    padding-top: 4px;
+    color: black;
+    padding-bottom:0px;
+}
+#experience {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.experience h2 {
+    font-size: 27px;
+    font-weight: bold;
+    color: black;
+    padding-top: 65px;
+    font-family: 'Francois One', sans-serif;
+}
+.group {
+    margin-top: 29px;
+}
+.card {
+    height: 246px;
+    margin-bottom:13px;
+}
+.gap {
+    padding-right: 14px;
+}
+#gateway {
+    margin-top: 30px;
+    margin-bottom: 27px;
+}
+.gateway {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.gateway h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    padding-top: 50px;
+    font-family: 'Francois One', sans-serif;
+}
+.gateway p {
+    font-size: 15px;
+    color: black;
+    line-height: 30px;
+}
+.looking h3 {
+    font-size: 19px;
+    line-height: 27px;
+    color: black;
+    margin-bottom: 0px;
+}
+.inline {
+    margin-top: 17px;
+    width: 345px;
+    height: 59px;
+    border-radius: 10px;
+    box-shadow: -2px 9px 25px 0px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.email {
+    border: none;
+    font-size: 19px;
+}
+button {
+    width: 53px;
+    height: 39px;
+    background-color: blue;
+    color: white;
+    border: none;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.description {
+    margin-top: 30px !important;
+    margin-bottom: 36px;
+}
+.description p{
+    font-size:18px;
+    margin-top: 25px !important;
+}
+.details h3{
+    font-size:18px;
+}
+.details p {
+    margin-left: 10px;
+    line-height: 4px;
+    font-size: 13px;
+}
+    .designer:hover{
+        cursor: pointer;
+        box-shadow: 0 10px 15px -5px rgba(0,0,0,0.2);
+        position: static;
+        padding: 15px;
+        margin: 0;
+        height: auto;
+        top: -25px;
+
+    }
+}
